@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:132.0) Gecko/20100101 Firefox/132.0" version="24.8.6">
+  <diagram name="Page-1" id="kM-mhGCAYe3ciCtcGrLU">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="AdvancedNetwork" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="47" y="8" width="330" height="254" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="OpenWRT Router" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="2">
+          <mxGeometry x="93" y="46" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Mini PC" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="2">
+          <mxGeometry x="61" y="172" width="87" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Mini PC" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="2">
+          <mxGeometry x="198" y="172" width="87" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.33;exitY=0.98;entryX=0.5;entryY=0;" edge="1" parent="2" source="3" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="105" y="135" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.67;exitY=0.98;entryX=0.5;entryY=0;" edge="1" parent="2" source="3" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="241" y="135" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8" value="Household" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="8" y="312" width="408" height="254" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Main Router" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="8">
+          <mxGeometry x="149" y="46" width="123" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Phone" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="8">
+          <mxGeometry x="43" y="172" width="78" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Phone" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="8">
+          <mxGeometry x="171" y="172" width="78" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="Mobile" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="8">
+          <mxGeometry x="299" y="172" width="81" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.07;exitY=0.98;entryX=0.5;entryY=0;" edge="1" parent="8" source="9" target="10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="82" y="135" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.98;entryX=0.5;entryY=0;" edge="1" parent="8" source="9" target="11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.93;exitY=0.98;entryX=0.51;entryY=0;" edge="1" parent="8" source="9" target="12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="135" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
